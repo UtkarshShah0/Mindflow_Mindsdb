@@ -11,7 +11,7 @@ MindsDB bridges the gap between AI and data by integrating data sources and ML e
 This repository focuses specifically on the MindsDB model used within MindFlow and provides insights into its configuration and usage. <br>
 <br>
 
-## Chat Section
+## Chat Section 💬
 <br>
 The following code defines the MindsDB model for the chat section of the MindFlow Chrome Extension. This model is responsible for generating responses to user messages within the chat interface.
 <br>
@@ -58,7 +58,7 @@ For example, if a user asks, "Who is the owner?" or "Who created you?" the model
 In a nutshell, this MindsDB model makes the chat section of MindFlow smart. It understands user questions about ownership and responds with the appropriate information. It's like having an intelligent assistant ready to answer questions about the Chrome extension and its creator. <br>
 <br>
 
-## Context Section
+## Context Section 📖
 <br> The following code defines a MindsDB model `que` which is designed for the context section of the MindFlow Chrome Extension. This model is built to provide specific answers within a given context, and it does so by understanding both the question and the context it's asked in. <br>
 
 ```
@@ -83,7 +83,7 @@ Now, this MindsDB model, "que," combines the user's resume content with their qu
 
 The MindsDB model assists the user in generating a customized cover letter by using the context from their resume. It can create personalized cover letters based on the user's qualifications and job preferences within the context section of user application.<br>
 <br>
-## Image Section
+## Image Section 🖼️
 <br> The _image_ section is a feature that allows users to request the generation of images based on specific descriptions or prompts they provide. The model named `mindsdb.gpt_image_3` is designed to assist with generating the images using the power of the OpenAI GPT-4 engine. <br>
 <br>
 ```
