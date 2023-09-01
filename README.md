@@ -1,9 +1,14 @@
 # Mindflow Mindsdb
-This repo consists of MindsDB code that I used for my Mindflow chrome extension. 
+[MindFlow](https://github.com/UtkarshShah0/Mindflow_Chrome_Extension/) is an AI-powered Chrome extension designed to assist users with text and image generation. MindsDB is a key component that enhances MindFlow's text generation capabilities.
+
+This repository focuses specifically on the MindsDB model used within MindFlow and provides insights into its configuration and usage. <br>
+<br>
 
 ## Chat Section
 <br>
-For the chat section I created the following model
+The following code defines the MindsDB model for the chat section of the MindFlow Chrome Extension. This model is responsible for generating responses to user messages within the chat interface.
+<br>
+<br>
 
 ```
 CREATE MODEL mindsdb.gpt_model
@@ -30,6 +35,21 @@ response = Utkarsh https://github.com/UtkarshShah0>
 the above example is given to help you understand do not include it in your response unless it is asked by the user in {{text}}';
 ```
 <br><br>
+## Explaination
+<br> The code starts by creating a MindsDB model called __gpt_model__. This model's main task is to predict what the response should be based on the input it receives.<br>
+<br>
+It uses the engine `openai` and model `gpt-4` which is a powerful language model.<br>
+
+The code also sets some limitations. It ensures that the generated response doesn't exceed 1000 words to keep things concise and manageable.<br>
+
+The `prompt_template` part is like an introduction for the model. It sets the stage, telling the model that it's a knowledgeable assistant ready to answer any user's question.
+
+Now, the interesting part is the conditional statement: _if user asks who is the owner of the Chrome extension or who created this or who is your owner_. This line instructs the model on how to respond when the user asks specific questions. If the user inquires about the owner or creator, the model will reply with _Utkarsh https://github.com/UtkarshShah0._
+
+For example, if a user asks, "Who is the owner?" or "Who created you?" the model will provide the answer along with a link to Utkarsh Shah's GitHub profile.
+
+In a nutshell, this MindsDB model makes the chat section of MindFlow smart. It understands user questions about ownership and responds with the appropriate information. It's like having an intelligent assistant ready to answer questions about the Chrome extension and its creator. <br>
+<br>
 
 ## Context Section
 <br>
