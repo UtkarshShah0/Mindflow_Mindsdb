@@ -77,9 +77,8 @@ Now, this MindsDB model, "que," combines the user's resume content with their qu
 The MindsDB model assists the user in generating a customized cover letter by using the context from their resume. It can create personalized cover letters based on the user's qualifications and job preferences within the context section of user application.<br>
 <br>
 ## Image Section
+<br> The _image_ section is a feature that allows users to request the generation of images based on specific descriptions or prompts they provide. The model named `mindsdb.gpt_image_3` is designed to assist with generating the images using the power of the OpenAI GPT-4 engine. <br>
 <br>
-For the image section, I created the following model <br>
-
 ```
 CREATE MODEL mindsdb.gpt_image_3
 PREDICT response
@@ -115,3 +114,6 @@ The user will give prompt in following manner
 INPUT: {{input}}
 OUTPUT: {{output}}';
 ```
+<br><br>
+
+## Explaination
