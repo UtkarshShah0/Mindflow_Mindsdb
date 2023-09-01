@@ -134,3 +134,12 @@ Now, here's where the magic happens:
 - Along with this description, the model generates a direct URL leading to the image. This URL allows users to view and use the image they've requested.
 
 So, in summary, this model takes user input for image focus and context, combines them to craft a full image description, and provides a URL to generate and access image. It makes it easy for users to obtain customized images based on their unique descriptions. Whether for presentations, art projects, or any other purpose, this model adds a creative touch to image generation.
+
+If a user inputs: <br>
+_INPUT_ = a photo of a cat <br>
+_OUTPUT_ = A photo of a cat on a couch, comfortable, cute, colorful, interior design<br>
+
+Url is generated like:<br> _https://image.pollinations.ai/prompt/a%20photo%20of%20a%20cat%20on%20a%20couch,%20comfortable,%20cute,%20colorful,%20interior%20photograph,%20interiordesign_
+
+__Note__:
+Pollinations.ai website is used for generating the image
