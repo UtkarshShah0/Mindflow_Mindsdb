@@ -13,7 +13,8 @@ This repository focuses specifically on the MindsDB model used within MindFlow a
 
 ## Table of Contents
 <br>
--[Chat Model]() <br>
+
+-[Chat Model](https://github.com/UtkarshShah0/Mindflow_Mindsdb/blob/main/README.md#chat-model-) <br>
 -[Context Model]() <br>
 -[Image Model]() <br>
 <br><br>
