@@ -52,8 +52,7 @@ In a nutshell, this MindsDB model makes the chat section of MindFlow smart. It u
 <br>
 
 ## Context Section
-<br>
-For the context section I created the following model <br>
+<br> The following code defines a MindsDB model `que` which is designed for the context section of the MindFlow Chrome Extension. This model is built to provide specific answers within a given context, and it does so by understanding both the question and the context it's asked in. <br>
 
 ```
 CREATE MODEL que
@@ -65,6 +64,7 @@ USING
 ```
 <br>
 
+## Explaination
 
 ## Image Section
 <br>
