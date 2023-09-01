@@ -65,7 +65,17 @@ USING
 <br>
 
 ## Explaination
+<br>
+Let's imagine a scenario where a user has input the contents of their resume into the "text" variable, and now they want to generate a cover letter tailored to a software developer role.
 
+- **Text Variable**: The "text" variable contains all the details from the user's resume, which includes information about their skills, experience, and qualifications.
+
+- **Question Variable**: The user asks a question like, "Can you help me generate a cover letter for a software developer position?"
+
+Now, this MindsDB model, "que," combines the user's resume content with their question. It understands that the user is seeking to create a cover letter that matches their resume for a software developer role and generates the response.
+
+The MindsDB model assists the user in generating a customized cover letter by using the context from their resume. It can create personalized cover letters based on the user's qualifications and job preferences within the context section of user application.<br>
+<br>
 ## Image Section
 <br>
 For the image section, I created the following model <br>
