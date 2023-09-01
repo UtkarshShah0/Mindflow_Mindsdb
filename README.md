@@ -120,3 +120,17 @@ OUTPUT: {{output}}';
 <br><br>
 
 ## Explaination
+<br>
+Here's how this model works:
+
+- **Input**: Users provide a primary focus or subject for the image they want. For instance, they might say, "cat," indicating they want an image of a cat.
+
+- **Output**: Users then have the creative freedom to describe the environment, mood, or any other details they want in the image. For example, they could say, "A playful cat on a sunny day in a garden filled with colorful flowers."
+
+Now, here's where the magic happens:
+
+- The `mindsdb.gpt_image_3` model combines the provided input _(the focus)_ and output _(the description)_ to generate a complete image description. In our example, it might produce: "A playful cat on a sunny day in a garden filled with colorful flowers."
+
+- Along with this description, the model generates a direct URL leading to the image. This URL allows users to view and use the image they've requested.
+
+So, in summary, this model takes user input for image focus and context, combines them to craft a full image description, and provides a URL to generate and access image. It makes it easy for users to obtain customized images based on their unique descriptions. Whether for presentations, art projects, or any other purpose, this model adds a creative touch to image generation.
