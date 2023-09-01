@@ -1,7 +1,7 @@
 # Mindsdb
-[MindFlow](https://github.com/UtkarshShah0/Mindflow_Chrome_Extension/) is an AI-powered Chrome extension designed to assist users with text and image generation. MindsDB is a key component that enhances MindFlow's text generation capabilities.<br>
+[MindFlow](https://github.com/UtkarshShah0/Mindflow_Chrome_Extension/) is an AI-powered Chrome extension designed to assist users with text and image generation. __MindsDB__ is a key component that enhances MindFlow's text generation capabilities.<br>
 
-[MindsDB](https://mindsdb.com/) empowers organizations to harness the power of AI by abstracting AI models as Generative AI Tables. These tables are capable of learning from the input data and generating predictions from the underlying model upon being queried. This abstraction makes AI highly accessible, enabling development teams to use their existing SQL skills to build applications powered by AI.<br>
+[MindsDB](https://mindsdb.com/) empowers organizations to harness the power of AI by abstracting `AI models` as `Generative AI Tables`. These tables are capable of learning from the input data and generating predictions from the underlying model upon being queried. This abstraction makes AI highly accessible, enabling development teams to use their existing SQL skills to build applications powered by AI.<br>
 MindsDB bridges the gap between AI and data by integrating data sources and ML engines.<br>
 
 This repository focuses specifically on the MindsDB model used within MindFlow and provides insights into its configuration and usage. <br>
